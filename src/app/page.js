@@ -17,8 +17,6 @@ export default function HomePage() {
         </div>
 
         <WatchColor color={selectedColor} />
-
-        {/* Farvevalgs knapper */}
         <div className="flex space-x-4 mt-4">
           <button className={`${selectedColor === "navy" ? "bg-gray-300" : "bg-white"} py-2 px-4 rounded-lg`} onClick={() => setSelectedColor("navy")}>
             Navy
